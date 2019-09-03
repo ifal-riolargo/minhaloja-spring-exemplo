@@ -19,6 +19,9 @@ public class Cliente {
 
     @NotBlank(message = "O endereço não pode ser vazio.")
     private String endereco;
+
+    private String pathToFoto;
+    
     // private List<Pedido> pedidos;
 
     public Cliente() {
@@ -47,6 +50,14 @@ public class Cliente {
 
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+
+    public String getPathToFoto() {
+        return pathToFoto;
+    }
+
+    public void setPathToFoto(String pathToFoto) {
+        this.pathToFoto = pathToFoto;
     }
 
     // public List<Pedido> getPedidos() {
