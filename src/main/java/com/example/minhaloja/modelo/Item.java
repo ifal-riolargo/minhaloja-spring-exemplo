@@ -13,6 +13,7 @@ public class Item {
     private Long id;
     private String nome;
     private double preco;
+    private String caminhoFoto;
 
     public Item(){
         super();
@@ -40,6 +41,16 @@ public class Item {
     public void setPreco(double preco) {
         this.preco = preco;
     }
+
+    public String getCaminhoFoto() {
+        return caminhoFoto;
+    }
+
+    public void setCaminhoFoto(String caminhoFoto) {
+        this.caminhoFoto = caminhoFoto;
+    }
+
+    
 
     
 }
