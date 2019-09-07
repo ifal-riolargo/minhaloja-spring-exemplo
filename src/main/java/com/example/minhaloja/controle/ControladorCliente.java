@@ -2,11 +2,9 @@ package com.example.minhaloja.controle;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 
 import javax.validation.Valid;
 
@@ -14,7 +12,6 @@ import com.example.minhaloja.modelo.Cliente;
 import com.example.minhaloja.repositorios.RepositorioCliente;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
